@@ -33,21 +33,6 @@ The coming-soon page includes:
 └── README.md
 ```
 
-## Preview Locally
-
-No build process or package installation is required. You can open either HTML file directly in a browser.
-
-For a local web-server preview, run:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit:
-
-- Main website: `http://localhost:8000/`
-- Under-construction page: `http://localhost:8000/comingsoon.html`
-
 ## Publishing the Under-Construction Page
 
 If the coming-soon page should appear at the root domain temporarily, either:
