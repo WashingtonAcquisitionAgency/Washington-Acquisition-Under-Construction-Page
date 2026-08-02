@@ -12,6 +12,16 @@
 </head>
 
 <body>
+  <div class="page-loader" role="status" aria-label="Loading Washington Acquisition Agency">
+    <div class="loader-content">
+      <img src="W Arrow up logo2.png" alt="">
+      <p>Washington Acquisition</p>
+      <div class="loader-track" aria-hidden="true">
+        <span class="loader-progress"></span>
+      </div>
+    </div>
+  </div>
+
   <header class="site-header">
     <nav class="nav-inner" aria-label="Main navigation">
       <a class="brand" href="index.html" aria-label="Washington Acquisition Agency home">
@@ -44,7 +54,7 @@
             <h2>Get notified when we launch.</h2>
           </div>
 
-          <form action="https://automation.washingtonacquisition.com/webhook/81bb7445-b9e2-4779-bc21-0acf8293b3fc" method="post">
+          <form action="https://automation.washingtonacquisition.com/webhook/81bb7445-b9e2-4779-bc21-0acf8293b3fc" method="post" data-success-page="thankyou.html">
             <div class="form-row">
               <div class="field">
                 <label for="first-name">First name</label>
